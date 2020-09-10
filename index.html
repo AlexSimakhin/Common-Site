@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Studio</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <script src="https://kit.fontawesome.com/c5c58d2109.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="theme-color" content="#000000">
+</head>
+
+<body>
+
+  <div class="fade-page">
+
+    <header>
+      <nav>
+        <div class="nav-bar">
+          <a class="Logotip" href="index.html">
+            <img src="img/LogoWhite.svg" alt="">
+            <div class="circle-logo"></div>
+          </a>
+          <div class="nav-title-container">
+            <div class="nav-title">Alex Simakhin</div>
+            <div class="nav-subtitle">HTML Test Work</div>
+          </div>
+          <div class="button-contact mobile"><a href="contact.html">Get in touch</a></div>
+          <button class="nav-bar-controls">
+
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="O svg-inline--fa fa-bars fa-w-14" role="img" viewBox="0 0 448 512">
+              <path fill="white"
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="X svg-inline--fa fa-times fa-w-11" role="img" viewBox="0 0 352 512">
+              <path fill="white"
+                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z" />
+            </svg>
+
+          </button>
+        </div>
+      </nav>
+
+      <a class="button-contact desktop" href="contact.html">Get in touch</a>
+
+      <div class="menu-overlay">
+
+        <div class="menu-overlay-container">
+          <div class="menu-overlay-bg"></div>
+          <div class="menu-overlay-block">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">PROJECTS</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="menu-other-links">
+              <a href="#">Guest Artist Series</a>
+              <form class="search-nav" action="/search">
+
+                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" viewBox="0 0 512 512">
+                  <path fill="white"
+                    d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
+                </svg>
+                <input type="submit" value=" " class="search-button">
+                <input type="search" class="search-input" maxlength="256" placeholder="Search" required="">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <main>
+
+      <div class="content-page JustifyContent-AlignItems-center">
+        <div class="imager JustifyContent-AlignItems-center">
+
+          <div class="carousel-wrapper">
+            <span id="target-item-1"></span>
+            <span id="target-item-2"></span>
+            <span id="target-item-3"></span>
+            <div class="carousel-item item-1">
+              <p>Site, Work In Progress</p>
+              <a class="arrow arrow-prev" href="#target-item-3"></a>
+              <a class="arrow arrow-next" href="#target-item-2"></a>
+
+              <div class="gradient-block1"></div>
+            </div>
+            <div class="carousel-item item-2">
+              <p>Site, Work In Progress</p>
+              <a class="arrow arrow-prev" href="#target-item-1"></a>
+              <a class="arrow arrow-next" href="#target-item-3"></a>
+              <div class="gradient-block1"></div>
+            </div>
+            <div class="carousel-item item-3">
+              <p>Site, Work In Progress</p>
+              <a class="arrow arrow-prev" href="#target-item-2"></a>
+              <a class="arrow arrow-next" href="#target-item-1"></a>
+              <div class="gradient-block1"></div>
+            </div>
+          </div>
+
+        </div>
+        <!--<div class="gradient-block1"></div>-->
+        <div class="gradient-new-paragraph-1"></div>
+        <!--<div class="gradient-new-paragraph-2"></div>-->
+
+
+      </div>
+
+      <div class="content-imgText">
+        <p class="paragraph text-center">
+          Alex Simakhin is a concept art and visual development house focused on world-building and IP development.
+          <br><br>
+          Led by some of the industry’s fiercest, most impassioned creatives, we create designs that are thoughtful, engaging and beautiful.
+          <br><br>
+          We breathe life into irresistible new worlds.
+        </p>
+
+        <div class="rule-bl">
+          <div class="rule-block"></div>
+        </div>
+
+        <div class="future-project JustifyContent-center">
+          <h4 class="text-center">FEATURED WORK</h4>
+
+          <div class="project JustifyContent-AlignItems-center">
+            <div class="prj-block first">
+              <a class="ph JustifyContent-AlignItems-center" href="#">
+                <img src="img/testimg.jpg" alt="">
+              </a>
+              <div class="about-ph">
+                <h3>Space wtf</h3>
+                <p>10000day later</p>
+              </div>
+            </div>
+
+            <div class="prj-block second">
+              <a class="ph JustifyContent-AlignItems-center" href="#">
+                <img src="img/testimg.jpg" alt="">
+              </a>
+              <div class="about-ph">
+                <h3>Space wtf</h3>
+                <p>55555day later</p>
+              </div>
+            </div>
+
+            <div class="prj-block third">
+              <a class="ph JustifyContent-AlignItems-center" href="#">
+                <img src="img/testimg.jpg" alt="">
+              </a>
+              <div class="about-ph">
+                <h3>Space wtf</h3>
+                <p>99999999day later</p>
+              </div>
+            </div>
+
+
+            <div class="href-but">
+              <a class="red-href" href="#">SEE ALL WORK <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="content-stats">
+
+        <div class="bg-stats"></div>
+
+        <div class="stats">
+          <section class="sect-1">
+            <div class="eyebrow-rule"></div>
+            <h1>4</h1>
+            <h5>years studied web design</h5>
+          </section>
+          <section class="sect-2">
+            <div class="eyebrow-rule"></div>
+            <h1>1 460</h1>
+            <h5>days studied web design</h5>
+          </section>
+          <section class="sect-3">
+            <div class="eyebrow-rule"></div>
+            <h1>~2 000</h1>
+            <h5>CUPS OF tea INGESTED ANNUALLY</h5>
+          </section>
+        </div>
+
+        <div class="parallax-window">
+          <div class="dragon"></div>
+        </div>
+      </div>
+
+      <div class="content-motivation JustifyContent-center">
+        <section>
+          <h2>the right team. For every project.</h2>
+          <p>
+            We bring the best artists in the industry together with subject matter they know and love to make project teams that are hyper-focused on your needs.
+            <br><br>
+            We've perfected our process for over a decade and have it down to a science.
+          </p>
+          <a class="red-href" href="#">HELP ME <i class="fas fa-long-arrow-alt-right"></i></a>
+        </section>
+        <div class="gradient-block2"></div>
+      </div>
+
+      <div class="content-capture JustifyContent-AlignItems-center">
+        <div class="imager JustifyContent-AlignItems-center">
+          <div class="last-img"></div>
+        </div>
+        <div class="capture-block JustifyContent-center">
+          <h2>Capture imaginations. Build franchises.</h2>
+          <p>
+            We’re an all-in. end-to-end creative partner that does world-sized work by building better teams and prioritizing collaboration.
+          </p>
+          <a class="red-href" href="#">CREATIVE <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <div class="logo">
+
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Logo" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
+            <path class="st0" d="M22.8,8.4c0,1.4,1.5,2.7,4.5,3.7c3.8,1.3,6.4,3.1,7.7,5.2c0-2.3-0.5-4.4-1.3-6.4l-2,0.4  c0.1-0.6,0.2-1.2,0.2-1.6c0-2.8-1.7-4.2-5.1-4.2C24.2,5.5,22.8,6.5,22.8,8.4z" />
+            <path class="st0" d="M6.1,4.2C2.4,7.5,0,12.2,0,17.5c0,1.7,0.3,3.4,0.7,4.9L6.1,4.2z" />
+            <path class="st0"
+              d="M27.1,28.4c-5.9,0-8.9-2.3-8.9-6.9c0-0.4,0-0.8,0.1-1.4l3.4-0.7c-0.3,1-0.4,1.9-0.4,2.7c0,3,1.7,4.5,5.1,4.5  c2.7,0,4.1-1.1,4.1-3.2c0-1.6-1.6-3-4.9-4.2c-4.7-1.7-7.1-4.5-7.1-8.3c0-2.2,0.8-3.9,2.4-5.2s3.6-2,6.2-2c0.4,0,0.8,0,1.1,0  C25.2,1.4,21.5,0,17.5,0C13.3,0,9.4,1.5,6.4,4h5.9L19,28h-7l-1.4-5.2H3.3l-1,3.4c3,5.3,8.7,8.8,15.2,8.8c6,0,11.2-3,14.4-7.6  C30.5,28.1,28.9,28.4,27.1,28.4z" />
+            <polygon class="st0" points="4,20.4 9.9,20.4 7.1,9.8 " />
+          </svg>
+
+        </div>
+        <div class="info JustifyContent-center">
+          <div class="contacts border-l">
+            <h5>CONTACT</h5>
+            <a href="#" style="color: #000000;text-decoration: underline">alexsimahin@gmail.com</a>
+            <p style="letter-spacing: -1px;">+38 (096) 041 33 80</p>
+          </div>
+          <div class="visit border-l">
+            <h5>VISIT</h5>
+            <p>
+              Ukraine, Odesa
+              <br>
+              Sadovaya,3
+            </p>
+          </div>
+          <div class="follow border-l">
+            <h5>FOLLOW</h5>
+            <div class="social">
+              <a class="sc fb" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="sc insta" href="#"><i class="fab fa-instagram"></i></a>
+              <a class="sc tw" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="sc vim" href="#"><i class="fab fa-vimeo-v"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">ReCreated by Alex Simahin. 2019</div>
+        <a href="tel:+380(96)0413380" class="phones" style="color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0 0 20px 0">
+          <span>+380(96)0413380</span>
+        </a>
+      </div>
+
+    </footer>
+
+  </div>
+
+  <script>
+    console.log($(".menu-overlay"))
+    $(".menu-overlay").fadeOut(0);
+    $(".X").fadeOut(0);
+
+    $(".nav-bar-controls").click(function() {
+
+      $(".menu-overlay").fadeToggle(1000);
+      $(".X").fadeToggle(1000);
+      $(".O").fadeToggle(1000);
+    });
+  </script>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+@media (min-width: 450px) and (max-width: 900px){
+  /*Fonts*/
+  .paragraph {
+    font: 200 1*1.25em 'Work Sans', sans-serif;
+  }
+
+  .future-project h4 {
+    font: 700 1.2*1.1em 'Lato', sans-serif;
+    letter-spacing: 2px;
+  }
+
+
+  /*/Fonts*/
+
+  /*Nav*/
+  /*/Nav*/
+
+  /*Content*/
+  .parallax-window {
+    width: 90%;
+  }
+
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+
+  /*Contact*/
+  .h1-for-contact{
+    font-size: 2em;
+    text-align: left;
+    width: 75%;
+    min-height: 300px;
+    top: 620px;
+  }
+  .p-for-contact{
+    text-align: left;
+    width: 75%;
+    min-height: 300px;
+    top: 700px;
+  }
+
+}
+@media(min-width: 750px){
+  .mobile{
+    display: flex;
+    right: 10%;
+  }
+  .mobile a{
+    color: white;
+  }
+}

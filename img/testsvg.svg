@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<line id="lineup" opacity="0.5" fill="none" stroke="#FFFFFF" stroke-width="0.25" stroke-miterlimit="10" x1="-198.208" y1="166.61" x2="810.209" y2="166.61"/>
+<line id="linedown" opacity="0.5" fill="none" stroke="#FFFFFF" stroke-width="0.25" stroke-miterlimit="10" x1="-198.208" y1="600.51" x2="810.209" y2="600.51"/>
+<circle id="elipcenter" opacity="0.5" fill="none" stroke="#FFFFFF" stroke-width="0.25" stroke-miterlimit="10" cx="306" cy="383.42" r="217.09"/>
+<circle id="ceilleft" opacity="0.5" fill="none" stroke="#FFFFFF" stroke-width="0.25" stroke-miterlimit="10" cx="88.63" cy="383.42" r="217.09"/>
+<circle id="elipright" opacity="0.5" fill="none" stroke="#FFFFFF" stroke-width="0.25" stroke-miterlimit="10" cx="523.37" cy="383.42" r="217.09"/>
+</svg>
